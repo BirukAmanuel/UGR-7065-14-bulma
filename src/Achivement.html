@@ -1,77 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Achievements</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>Your Page Title</title>
 </head>
+<body class="has-background-grey-lighter">
 
-<body>
-
-    <header>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="achivement.html">Achievements</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="dev-skills.html">Dev Skills</a></li>
+<header>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-end">
+            <ul class="navbar-menu">
+                <li class="navbar-item"><a href="home.html" class="button is-primary">Home</a></li>
+                <li class="navbar-item"><a href="aboutme.html" class="button is-primary">About Me</a></li>
+                <li class="navbar-item"><a href="Achivements.html" class="button is-primary">Achievements</a></li>
+                <li class="navbar-item"><a href="education.html" class="button is-primary">Education</a></li>
+                <li class="navbar-item"><a href="dev-skills.html" class="button is-primary">Dev Skills</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
+<header class="has-background-primary">
+  <h1 class="has-text-white is-size-3 has-text-weight-bold">My Achievements</h1>
+</header>
 
-    <main>
-        <section>
-            <h1>My Achievements</h1>
-            <ul>
-                <li>Physically Fit</li>
-                <li>Cooking</li>
-                <li>Scored Multiple Bangers in FIFA</li>
-            </ul>
-        </section>
+<div class="content">
+  <ul class="is-size-5">
+      <li class="mb-2"><span class="icon has-text-info"><i class="fas fa-gamepad"></i></span> Physically Fit</li>
+      <li class="mb-2"><span class="icon has-text-info"><i class="fas fa-gamepad"></i></span> Cooking</li>
+      <li class="mb-2"><span class="icon has-text-info"><i class="fas fa-gamepad"></i></span> Scored Multiple Bangers in FIFA</li>
+  </ul>
+  
+</div>
+<div class="columns is-variable is-8">
+  <!-- Video Column -->
+  <div class="column">
+      <h2 class="title">The Goal I Scored with Ronaldo</h2>
+      <video controls class="mb-4" src="image/Fifa.mp4" aria-label="My Video"></video>
+  </div>
 
-        <section>
-            <h2>The Goal I Scored with Ronaldo</h2>
-            <video controls src="image/Fifa.mp4" aria-label="My Video"></video>
-        </section>
+  <!-- Paragraph Column -->
+  <div class="column">
+      <p class="content mt-4">
+          In pursuit of my goal with Ronaldo, the exhilarating moment unfolded in a breathtaking spectacle of skill and
+          precision. Positioned strategically in the penalty area, Ronaldo's anticipation met its pinnacle when an
+          impeccable assist from Douglas Costa materialized. The orchestration of the play was nothing short of
+          perfection. As the ball sailed through the air, seemingly choreographed by an unseen force, Ronaldo soared
+          with an awe-inspiring leap. Time seemed to momentarily freeze as his connection with the ball manifested into
+          a masterful over-head kick. The sheer athleticism, coupled with the synchronized elegance of the play,
+          culminated in a goal that transcended the realm of mere sportsmanship. It became a symphony of artistry on
+          the football field, a testament to the harmonious collaboration between skillful teammates. This goal stands
+          not only as a remarkable achievement but as a living testament to the boundless potential of teamwork and
+          individual brilliance converging in the pursuit of excellence.
+      </p>
+  </div>
+</div>
+<section>
+  <h2 class="has-text-black is-size-3 has-text-weight-bold">Cooking</h2>
+  <img src="image/cooking.jpg" alt="Cooking Image">
+</section>
+<p>
+  Cooking is an artful symphony of flavors, aromas, and textures that transforms simple ingredients into a
+  culinary masterpiece. It is a sensorial journey, where the sizzle of ingredients in a hot pan, the enticing
+  fragrance that wafts through the kitchen, and the vibrant colors of fresh produce come together to create an
+  experience that transcends mere sustenance. In the realm of the kitchen, one becomes a storyteller, weaving
+  tales through the careful selection and harmonious combination of ingredients. Whether experimenting with
+  new recipes or recreating time-honored family traditions, cooking is a dynamic and rewarding process that
+  engages the senses and nurtures both body and soul. It is a communal act, bringing people together around a
+  shared table, where the fruits of labor are savored and memories are made. Cooking is an ever-evolving
+  skill, a source of joy, and a testament to the endless possibilities that arise from the alchemy of culinary
+  creativity.
+</p>
+<footer class="footer has-background-primary has-text-white">
+  <div class="content has-text-centered ">
+      &copy; 2023 Biruk Amanuel. All Rights Reserved.
+  </div>
+</footer>
 
-        <p>
-            In pursuit of my goal with Ronaldo, the exhilarating moment unfolded in a breathtaking spectacle of skill and
-            precision. Positioned strategically in the penalty area, Ronaldo's anticipation met its pinnacle when an
-            impeccable assist from Douglas Costa materialized. The orchestration of the play was nothing short of
-            perfection. As the ball sailed through the air, seemingly choreographed by an unseen force, Ronaldo soared
-            with an awe-inspiring leap. Time seemed to momentarily freeze as his connection with the ball manifested into
-            a masterful over-head kick. The sheer athleticism, coupled with the synchronized elegance of the play,
-            culminated in a goal that transcended the realm of mere sportsmanship. It became a symphony of artistry on
-            the football field, a testament to the harmonious collaboration between skillful teammates. This goal stands
-            not only as a remarkable achievement but as a living testament to the boundless potential of teamwork and
-            individual brilliance converging in the pursuit of excellence.
-        </p>
-
-        <section>
-            <h2>Cooking</h2>
-            <img src="image/cooking.jpg" alt="Cooking Image">
-        </section>
-
-        <p>
-            Cooking is an artful symphony of flavors, aromas, and textures that transforms simple ingredients into a
-            culinary masterpiece. It is a sensorial journey, where the sizzle of ingredients in a hot pan, the enticing
-            fragrance that wafts through the kitchen, and the vibrant colors of fresh produce come together to create an
-            experience that transcends mere sustenance. In the realm of the kitchen, one becomes a storyteller, weaving
-            tales through the careful selection and harmonious combination of ingredients. Whether experimenting with
-            new recipes or recreating time-honored family traditions, cooking is a dynamic and rewarding process that
-            engages the senses and nurtures both body and soul. It is a communal act, bringing people together around a
-            shared table, where the fruits of labor are savored and memories are made. Cooking is an ever-evolving
-            skill, a source of joy, and a testament to the endless possibilities that arise from the alchemy of culinary
-            creativity.
-        </p>
-    </main>
-
-    <footer>
-        &copy; 2023 Biruk Amanuel. All Rights Reserved.
-    </footer>
 
 </body>
-
 </html>
